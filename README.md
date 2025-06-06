@@ -1,70 +1,75 @@
-# Getting Started with Create React App
+<p align="center">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" width="100" alt="React Logo" />
+  <img src="https://cdn-icons-png.flaticon.com/512/5968/5968705.png" alt="Figma" width="100" />
+</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# 🍋 Little Lemon Restaurant
+# Booking Table App & Order for Delivery UX/UI Project
 
-## Available Scripts
+## Overview:
 
-In the project directory, you can run:
+- This project was created as part of the Meta Front-End Developer course on Coursera.
+- The goal was to design and prototype a **mobile-friendly "Reserve a Table" feature** for a fictional cozy Italian restaurant named **Little Lemon**, set in Florence, Italy.
+- The project includes the **entire UX/UI process**, from defining the problem to delivering an interactive, high-fidelity Figma prototype.
 
-### `npm start`
+- Responsive restaurant app with table reservation form is built with React. 
+- It includes form validation, accessibility features (like semantic HTML and ARIA attributes), and is tested using Jest and React Testing Library.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Objectives
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Improve customer experience by enabling online table reservations.
+- Design a mobile-first, intuitive flow with clear visual hierarchy.
+- Reflect the warm, authentic brand of a small Italian restaurant.
+- Include food ordering functionality with confirmation flow.
 
-### `npm test`
+## Technologies Used:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- React.js, HTML, CSS
+- Figma
+- VS Code
+- Git, GitHub
 
-### `npm run build`
+## Future improvements:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Create Order Online Page
+- Create Menu Page
+- As Figma project and App project were different tasks, then there is a need to make App and Figma work look a same, right now there are some differences.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Project link:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- [**Figma project**](https://www.figma.com/design/A0gULYHzx53i0sTHk4fU9G/Little-Lemon-Restaurant?node-id=438-94&t=528u1ipnb8EE9NBV-1)
 
-### `npm run eject`
+- [**Figma mobile prototype**](https://www.figma.com/proto/A0gULYHzx53i0sTHk4fU9G/Little-Lemon-Restaurant?node-id=439-95&t=XRQOAzSz2PR20Ghq-1&scaling=scale-down&content-scaling=fixed&page-id=438%3A94&starting-point-node-id=439%3A95)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Steps to Run:
+1. Clone repository
+   ```bash
+   git clone https://github.com/your-username/your-repo-name.git
+   cd your-repo-name
+   ```
+2. Install dependencies, Make sure you have Node.js installed, then run:
+   ```bash
+   npm install
+   ```
+3. Start the development server (This will start the app on http://localhost:3000 in your browser):
+   ```bash
+   npm start
+   ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Screenshots:
+<img width="1000" alt="Screenshot 2025-06-06 at 18 28 42" src="https://github.com/user-attachments/assets/7c45d7ca-effe-48be-99db-ba5799230553" />
+<img width="1000" alt="Screenshot 2025-06-06 at 18 28 54" src="https://github.com/user-attachments/assets/fa4fb695-8441-4354-ad0d-b24c1cd25c5a" />
+<img width="1000" alt="Screenshot 2025-06-06 at 18 29 07" src="https://github.com/user-attachments/assets/7682ed49-f776-4681-9d63-b8fe41019dbc" />
+<img width="1000" alt="Screenshot 2025-06-06 at 18 29 18" src="https://github.com/user-attachments/assets/bdee0d08-c66d-400a-bdeb-07b30f681d4e" />
+<img width="1000" alt="Screenshot 2025-06-06 at 18 37 07" src="https://github.com/user-attachments/assets/cea63c4c-4b48-4752-a34e-f96842840669" />
+<img width="1000" alt="Screenshot 2025-06-06 at 18 37 25" src="https://github.com/user-attachments/assets/80ba0bbe-77c1-4394-b8e6-5cf0e19a7818" />
+<img width="1000" alt="Screenshot 2025-06-06 at 18 33 27" src="https://github.com/user-attachments/assets/73ef20db-ea14-4fb4-b90a-a958c610cf8d" />
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+<img width="400" alt="Screenshot 2025-06-06 at 19 23 42" src="https://github.com/user-attachments/assets/6ce6a836-6773-4626-a05f-3a58b7918938" />
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<img width="400" alt="Screenshot 2025-06-06 at 19 25 29" src="https://github.com/user-attachments/assets/0949c4eb-63d1-47ff-8ab4-b99853ee4530" />
+<img width="1000" alt="Screenshot 2025-06-06 at 19 21 54" src="https://github.com/user-attachments/assets/6c15f017-8076-4253-8809-11647cf80cc2" />
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<img width="1000" alt="Screenshot 2025-06-06 at 19 21 38" src="https://github.com/user-attachments/assets/16a3a5d3-a249-450f-a186-5859f95bcad1" />

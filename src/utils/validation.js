@@ -1,0 +1,9 @@
+// src/utils/validation.js
+
+export function validateEmail(email) {
+  return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+}
+
+export function validatePhone(phone) {
+  return /^\+?\d{7,15}$/.test(phone); // Simple numeric validation (adjust as needed)
+}
