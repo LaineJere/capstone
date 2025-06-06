@@ -73,12 +73,12 @@ export default function ReservaMesaForm() {
         required
       />
 
-      <label htmlFor="numeroPedido">Número do Pedido</label>
+      <label htmlFor="numeroPessoas">Quantas Pessoas</label>
       <input
-        id="numeroPedido"
-        name="numeroPedido"
+        id="numeroPessoas"
+        name="numeroPessoas"
         type="text"
-        value={formData.numeroPedido}
+        value={formData.numeroPessoas}
         onChange={handleChange}
         required
       />
